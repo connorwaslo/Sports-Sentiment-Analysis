@@ -29,6 +29,7 @@ while iter < 3:
             )
 
     time.sleep(902)
+    iter += 1
 
 # Save tweets to text file for manual classification
 with open('tweets/celtics.txt', 'w') as f:
