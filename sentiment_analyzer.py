@@ -55,8 +55,8 @@ featuresets_f.close()
 random.shuffle(featuresets)
 print(len(featuresets))
 
-testing_set = featuresets[10000:]
-training_set = featuresets[:10000]
+training_set = featuresets[:4500]
+testing_set = featuresets[4500:]
 
 open_file = open('pickles/classifiers/naive_bayes_classifier.pickle', 'rb')
 classifier = pickle.load(open_file)
@@ -74,7 +74,7 @@ open_file = open('pickles/classifiers/sgdc_classifier.pickle', 'rb')
 SGDC_classifier = pickle.load(open_file)
 open_file.close()
 
-open_file = open('pickles/classifiers/nusvc_classfier.pickle', 'rb')
+open_file = open('pickles/classifiers/nusvc_classifier.pickle', 'rb')
 NuSVC_classifier = pickle.load(open_file)
 open_file.close()
 
@@ -87,7 +87,8 @@ voted_classifier = VoteClassifier(classifier,
                                   LogisticRegression_classifier,
                                   NuSVC_classifier,
                                   SGDC_classifier,
-                                  SVC_classifier)
+                                  # SVC_classifier
+                                  )
 
 
 def sentiment(text):

@@ -75,7 +75,7 @@ featuresets = [(find_features(rev), category) for (rev, category) in documents[:
 
 # Save featuresets
 save_featuresets = open("pickles/featuresets_5k.pickle", "wb")
-pickle.dump(featuresets[:1200], save_featuresets)
+pickle.dump(featuresets[:5000], save_featuresets)
 save_featuresets.close()
 
 training_set = featuresets[:4500]

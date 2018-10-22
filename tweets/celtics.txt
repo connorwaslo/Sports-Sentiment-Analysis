@@ -136,16 +136,24 @@ T- 1 hour!!!!!!!!
 Gonna be watching the #Celtics game during my night class cus you know... priorities #CUsRise #NBAIsBack
 ***
 #NBA is back! It's game time! Lezzgooo #Celtics!!  #CUsRise
+ - Manual: pos
+ - Classifier: neg 80%
 ***
 Its a big night for sports! Heres a quick run down. #nbaseasonopener #nba #soccer #usamensnationalteam  #perusoccer #usasoccer #celtics #76ers #worldcup #uswomanssoccer #charlottehornets... https://t.co/wNbjHa0xwq
 ***
 #Celtics #NBAonTNT at the game tonight #Boston #NBAOpeningNight https://t.co/kOIYaYD5ac
 ***
 Lets go #Celtics set the tone and get this dub tonight
+ - Manual: pos
+ - Classifier: neg 100%
 ***
 YAY GORDON HAYWARD IS ON THE JETBLUE RUNWAY! #Celtics https://t.co/XYxyuNGVj8
+ - Manual: pos
+ - Classifier: pos 80%
 ***
 Its time for some NBA basketball. Lets go Celtics!!! #Celtics
+ - Manual: pos
+ - Classifier: pos 80%
 ***
 #Celtics season 
 ***
@@ -164,6 +172,9 @@ This really is the perfect combination. Buzzing for the match. COME ON YOU Cs #C
 ***
 Almost go time! I'm too hype for this season. #Boston #Celtics #BostonCeltics #CelticPride #GreenRunsDeep #BleedGreen #CUsRise #Sportsgirl #SeasonOpener #617 
 : celtics :greenrunsdeep https://t.co/87NA1Tu2uw
+ - Manual: pos
+ - Classifier: neg 100%
+ - Note: Removing hashtags made no difference
 ***
 Ben Simmons and the #Sixers are all set to tip off the new season against the #Celtics
 
@@ -180,6 +191,8 @@ One of the challenges will be making sure that we find those right times for tho
 UofL fans: check out Terry Rozier on TNT starting at 8PM as the #Celtics take on the #Sixers in the first game of the #NBA regular season.
 ***
 Lets go Boston !! Ready for both games.  #DoDamage #Celtics #bigpapi #thetruth #PaulPierce https://t.co/nu6UsHnzAd
+ - Manual: pos
+ - Classifier: neg 100%
 ***
 Celtics open up tonight against the 6ers! #nbaishere #celtics #CusRise 
 ***

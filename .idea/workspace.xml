@@ -2,8 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51e1f0b7-0c8a-4ec9-98b8-60a75284ced2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/test_sentiment.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickles/classifiers/linear_svc_classifier.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/pickles/classifiers/linear_svc_classifier.pickle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickles/classifiers/logistic_classifier.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/pickles/classifiers/logistic_classifier.pickle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickles/classifiers/naive_bayes_classifier.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/pickles/classifiers/naive_bayes_classifier.pickle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickles/classifiers/nusvc_classifier.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/pickles/classifiers/nusvc_classifier.pickle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickles/classifiers/sgdc_classifier.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/pickles/classifiers/sgdc_classifier.pickle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickles/classifiers/svc_classifier.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/pickles/classifiers/svc_classifier.pickle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickles/documents.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/pickles/documents.pickle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickles/featuresets_5k.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/pickles/featuresets_5k.pickle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sentiment_analyzer.py" beforeDir="false" afterPath="$PROJECT_DIR$/sentiment_analyzer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/train_log_reg.py" beforeDir="false" afterPath="$PROJECT_DIR$/train_log_reg.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tweets/celtics.txt" beforeDir="false" afterPath="$PROJECT_DIR$/tweets/celtics.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,8 +23,28 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Sports_Sentiment$train_log_reg.coverage" NAME="train_log_reg Coverage Results" MODIFIED="1540178701826" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Sports_Sentiment$train_log_reg.coverage" NAME="train_log_reg Coverage Results" MODIFIED="1540180116918" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Sports_Sentiment$test_sentiment.coverage" NAME="test_sentiment Coverage Results" MODIFIED="1540180891835" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Sports_Sentiment$download_tweets.coverage" NAME="download_tweets Coverage Results" MODIFIED="1539731062172" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+  <component name="DockManager">
+    <window id="1">
+      <content type="file-editors">
+        <state>
+          <leaf>
+            <file pinned="false" current-in-tab="true">
+              <entry file="file://$PROJECT_DIR$/tweets/celtics.txt">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="741">
+                    <caret line="311" column="62" selection-start-line="311" selection-end-line="311" selection-end-column="62" />
+                  </state>
+                </provider>
+              </entry>
+            </file>
+          </leaf>
+        </state>
+      </content>
+    </window>
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="96141992">
@@ -28,30 +59,30 @@
           <entry key="gitattributes" value="1" />
           <entry key="gitignore" value="2" />
           <entry key="json" value="1" />
-          <entry key="py" value="9" />
-          <entry key="txt" value="9" />
+          <entry key="py" value="10" />
+          <entry key="txt" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="JSON" value="1" />
-          <entry key="PLAIN_TEXT" value="12" />
-          <entry key="Python" value="9" />
+          <entry key="PLAIN_TEXT" value="13" />
+          <entry key="Python" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gitignore" value="64" />
           <entry key="json" value="4" />
-          <entry key="py" value="4281" />
-          <entry key="txt" value="1" />
+          <entry key="py" value="4355" />
+          <entry key="txt" value="285" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JSON" value="4" />
-          <entry key="PLAIN_TEXT" value="65" />
-          <entry key="Python" value="4281" />
+          <entry key="PLAIN_TEXT" value="349" />
+          <entry key="Python" value="4355" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -63,7 +94,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/download_tweets.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="713">
+            <state relative-caret-position="322">
               <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
@@ -75,8 +106,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/train_log_reg.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="191">
-              <caret line="79" lean-forward="true" selection-start-line="79" selection-end-line="79" />
+            <state relative-caret-position="99">
+              <caret line="78" column="24" selection-start-line="78" selection-start-column="24" selection-end-line="78" selection-end-column="24" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -84,24 +115,24 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sentiment_analyzer.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="163">
-              <caret line="84" column="34" selection-start-line="84" selection-start-column="34" selection-end-line="84" selection-end-column="34" />
+            <state relative-caret-position="138">
+              <caret line="88" column="50" lean-forward="true" selection-start-line="88" selection-start-column="50" selection-end-line="88" selection-end-column="50" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
-                <marker date="1540179975727" expanded="true" signature="171:176" ph="..." />
+                <marker date="1540180487442" expanded="true" signature="171:176" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tweets/celtics.txt">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test_sentiment.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3570">
-              <caret line="338" selection-start-line="338" selection-end-line="338" />
+            <state relative-caret-position="46">
+              <caret line="2" column="81" selection-start-line="2" selection-start-column="81" selection-end-line="2" selection-end-column="81" />
             </state>
           </provider>
         </entry>
@@ -142,12 +173,13 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/json/twitter_credentials.json" />
-        <option value="$PROJECT_DIR$/tweets/celtics.txt" />
         <option value="$PROJECT_DIR$/download_tweets.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/shuffle_training_data.py" />
         <option value="$PROJECT_DIR$/train_log_reg.py" />
         <option value="$PROJECT_DIR$/sentiment_analyzer.py" />
+        <option value="$PROJECT_DIR$/tweets/celtics.txt" />
+        <option value="$PROJECT_DIR$/test_sentiment.py" />
       </list>
     </option>
   </component>
@@ -183,17 +215,6 @@
               <item name="Sports Sentiment" type="b2602c69:ProjectViewProjectNode" />
               <item name="Sports Sentiment" type="462c0819:PsiDirectoryNode" />
               <item name="json" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Sports Sentiment" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Sports Sentiment" type="462c0819:PsiDirectoryNode" />
-              <item name="pickles" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Sports Sentiment" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Sports Sentiment" type="462c0819:PsiDirectoryNode" />
-              <item name="pickles" type="462c0819:PsiDirectoryNode" />
-              <item name="classifiers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Sports Sentiment" type="b2602c69:ProjectViewProjectNode" />
@@ -235,7 +256,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.train_log_reg">
+  <component name="RunManager" selected="Python.test_sentiment">
     <configuration name="download_tweets" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Sports Sentiment" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -250,6 +271,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/download_tweets.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_sentiment" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Sports Sentiment" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_sentiment.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -283,9 +326,11 @@
     <list>
       <item itemvalue="Python.download_tweets" />
       <item itemvalue="Python.train_log_reg" />
+      <item itemvalue="Python.test_sentiment" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.test_sentiment" />
         <item itemvalue="Python.train_log_reg" />
         <item itemvalue="Python.download_tweets" />
       </list>
@@ -309,7 +354,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19595142" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19595142" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
@@ -319,7 +364,7 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32993197" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.26190478" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.26190478" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -374,16 +419,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/download_tweets.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="713">
-          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/site-packages/nltk/probability.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-312">
@@ -391,17 +426,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tweets/celtics.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3570">
-          <caret line="338" selection-start-line="338" selection-end-line="338" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/train_log_reg.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="79" lean-forward="true" selection-start-line="79" selection-end-line="79" />
+        <state relative-caret-position="99">
+          <caret line="78" column="24" selection-start-line="78" selection-start-column="24" selection-end-line="78" selection-end-column="24" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
@@ -410,12 +438,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sentiment_analyzer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="84" column="34" selection-start-line="84" selection-start-column="34" selection-end-line="84" selection-end-column="34" />
+        <state relative-caret-position="138">
+          <caret line="88" column="50" lean-forward="true" selection-start-line="88" selection-start-column="50" selection-end-line="88" selection-end-column="50" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
-            <marker date="1540179975727" expanded="true" signature="171:176" ph="..." />
+            <marker date="1540180487442" expanded="true" signature="171:176" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/download_tweets.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tweets/celtics.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="741">
+          <caret line="311" column="62" selection-start-line="311" selection-end-line="311" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_sentiment.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="81" selection-start-line="2" selection-start-column="81" selection-end-line="2" selection-end-column="81" />
         </state>
       </provider>
     </entry>
