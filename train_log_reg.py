@@ -4,25 +4,28 @@ import pickle
 import csv
 import re
 
+import tweet_preprocessing as tp
+
 from nltk.classify.scikitlearn import SklearnClassifier
 from sklearn.linear_model import LogisticRegression, SGDClassifier
 from sklearn.svm import SVC, LinearSVC, NuSVC
 
 from nltk.tokenize import word_tokenize
 
-pos_tweets = []
-with open('training_data/positive_tweets.csv', 'r') as f:
-    reader = csv.reader(f)
-    for row in reader:
-        tweet = row[0]
-        pos_tweets.append(re.sub('&.+?;', '', tweet)) # Delete words like &quot;
+pos_tweets = tp.ProcessTweets('training_data/positive_tweets.csv', 'training_data/psd_pos_tweets.csv').get_tweets()
+neg_tweets = tp.ProcessTweets('training_data/negative_tweets.csv', 'training_data/psd_neg_tweets.csv').get_tweets()
+# with open('training_data/positive_tweets.csv', 'r') as f:
+#     reader = csv.reader(f)
+#     for row in reader:
+#         tweet = row[0]
+#         pos_tweets.append(re.sub('&.+?;', '', tweet)) # Delete words like &quot;
 
-neg_tweets = []
-with open('training_data/negative_tweets.csv', 'r') as f:
-    reader = csv.reader(f)
-    for row in reader:
-        tweet = row[0]
-        neg_tweets.append(re.sub('&.+?;', '', tweet)) # Delete words like &quot;
+# neg_tweets = []
+# with open('training_data/negative_tweets.csv', 'r') as f:
+#     reader = csv.reader(f)
+#     for row in reader:
+#         tweet = row[0]
+#         neg_tweets.append(re.sub('&.+?;', '', tweet)) # Delete words like &quot;
 
 all_words = []
 documents = []
