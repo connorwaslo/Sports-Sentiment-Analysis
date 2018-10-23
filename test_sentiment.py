@@ -1,4 +1,5 @@
 import sentiment_analyzer as s
+import tweet_preprocessing as tp
 import pickle
 import csv
 import re
@@ -7,12 +8,14 @@ from nltk.sentiment.vader import SentimentIntensityAnalyzer
 
 sid = SentimentIntensityAnalyzer()
 
-pos_tweets = []
-with open('testing_data/nba_tweets.csv', 'r') as f:
-    reader = csv.reader(f)
-    for row in reader:
-        tweet = row[0]
-        pos_tweets.append(re.sub('&.+?;', '', tweet)) # Delete words like &quot;
+pos_tweets = tp.ProcessTweets('testing_data/nba_tweets.csv', 'testing_data/processed_nba_tweets.csv').get_tweets()
+
+# pos_tweets = []
+# with open('testing_data/nba_tweets.csv', 'r') as f:
+#     reader = csv.reader(f)
+#     for row in reader:
+#         tweet = row[0]
+#         pos_tweets.append(re.sub('&.+?;', '', tweet)) # Delete words like &quot;
 
 # Test accuracy of Vader sentiment analysis
 documents_f = open('pickles/documents.pickle', 'rb')

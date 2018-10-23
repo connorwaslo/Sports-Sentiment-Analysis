@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51e1f0b7-0c8a-4ec9-98b8-60a75284ced2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/download_tweets.py" beforeDir="false" afterPath="$PROJECT_DIR$/download_tweets.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tweet_preprocessing.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test_sentiment.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_sentiment.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tweets/celtics.txt" beforeDir="false" afterPath="$PROJECT_DIR$/tweets/celtics.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tweets/knicks.txt" beforeDir="false" afterPath="$PROJECT_DIR$/tweets/knicks.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tweets/mavs.txt" beforeDir="false" afterPath="$PROJECT_DIR$/tweets/mavs.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tweets/sixers.txt" beforeDir="false" afterPath="$PROJECT_DIR$/tweets/sixers.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,8 +13,9 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Sports_Sentiment$train_log_reg.coverage" NAME="train_log_reg Coverage Results" MODIFIED="1540222278488" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Sports_Sentiment$test_sentiment.coverage" NAME="test_sentiment Coverage Results" MODIFIED="1540275912154" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Sports_Sentiment$test_sentiment.coverage" NAME="test_sentiment Coverage Results" MODIFIED="1540327267905" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Sports_Sentiment$download_tweets.coverage" NAME="download_tweets Coverage Results" MODIFIED="1540324700671" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Sports_Sentiment$tweet_preprocessing.coverage" NAME="tweet_preprocessing Coverage Results" MODIFIED="1540326463315" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="96141992">
@@ -31,27 +27,27 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="csv" value="1" />
+          <entry key="csv" value="3" />
           <entry key="gitattributes" value="1" />
           <entry key="gitignore" value="3" />
           <entry key="json" value="1" />
-          <entry key="py" value="11" />
+          <entry key="py" value="13" />
           <entry key="txt" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSV" value="1" />
+          <entry key="CSV" value="3" />
           <entry key="JSON" value="1" />
           <entry key="PLAIN_TEXT" value="22" />
-          <entry key="Python" value="11" />
+          <entry key="Python" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gitignore" value="64" />
           <entry key="json" value="4" />
-          <entry key="py" value="5913" />
+          <entry key="py" value="7608" />
           <entry key="txt" value="293" />
         </counts>
       </usages-collector>
@@ -59,7 +55,7 @@
         <counts>
           <entry key="JSON" value="4" />
           <entry key="PLAIN_TEXT" value="357" />
-          <entry key="Python" value="5913" />
+          <entry key="Python" value="7608" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -77,7 +73,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/download_tweets.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="107">
@@ -90,10 +86,38 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tweet_preprocessing.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="224">
+              <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+                <marker date="1540327201391" expanded="true" signature="240:390" ph="..." />
+                <marker date="1540327201391" expanded="true" signature="787:1011" ph="..." />
+                <marker date="1540327201391" expanded="true" signature="1067:1076" ph="..." />
+                <marker date="1540327201391" expanded="true" signature="1323:1332" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test_sentiment.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="161">
+              <caret line="10" column="99" selection-start-line="10" selection-start-column="99" selection-end-line="10" selection-end-column="99" />
+              <folding>
+                <element signature="e#0#30#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/train_log_reg.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-644">
-              <caret line="83" column="35" lean-forward="true" selection-start-line="83" selection-start-column="35" selection-end-line="83" selection-end-column="35" />
+            <state relative-caret-position="230">
+              <caret line="10" column="39" lean-forward="true" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -109,18 +133,6 @@
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
                 <marker date="1540180487442" expanded="true" signature="171:176" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test_sentiment.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="121">
-              <caret line="53" column="71" lean-forward="true" selection-start-line="53" selection-start-column="71" selection-end-line="53" selection-end-column="71" />
-              <folding>
-                <element signature="e#0#30#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -161,8 +173,10 @@
         <option value="$PROJECT_DIR$/tweets/sixers.txt" />
         <option value="$PROJECT_DIR$/tweets/mavs.txt" />
         <option value="$PROJECT_DIR$/tweets/celtics.txt" />
-        <option value="$PROJECT_DIR$/test_sentiment.py" />
         <option value="$PROJECT_DIR$/download_tweets.py" />
+        <option value="$PROJECT_DIR$/tweets/processed_warriors.csv" />
+        <option value="$PROJECT_DIR$/tweet_preprocessing.py" />
+        <option value="$PROJECT_DIR$/test_sentiment.py" />
       </list>
     </option>
   </component>
@@ -239,7 +253,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.download_tweets">
+  <component name="RunManager" selected="Python.test_sentiment">
     <configuration name="download_tweets" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Sports Sentiment" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -306,15 +320,39 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="tweet_preprocessing" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Sports Sentiment" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tweet_preprocessing.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.download_tweets" />
       <item itemvalue="Python.train_log_reg" />
       <item itemvalue="Python.test_sentiment" />
+      <item itemvalue="Python.tweet_preprocessing" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.download_tweets" />
         <item itemvalue="Python.test_sentiment" />
+        <item itemvalue="Python.tweet_preprocessing" />
+        <item itemvalue="Python.download_tweets" />
         <item itemvalue="Python.train_log_reg" />
       </list>
     </recent_temporary>
@@ -337,7 +375,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.40728745" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21781376" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
@@ -347,7 +385,7 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32993197" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3690476" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3112245" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -402,27 +440,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/train_log_reg.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-644">
-          <caret line="83" column="35" lean-forward="true" selection-start-line="83" selection-start-column="35" selection-end-line="83" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sentiment_analyzer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="33" column="36" lean-forward="true" selection-start-line="33" selection-start-column="36" selection-end-line="33" selection-end-column="36" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-            <marker date="1540180487442" expanded="true" signature="171:176" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tweets/knicks.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-92">
@@ -451,21 +468,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_sentiment.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="53" column="71" lean-forward="true" selection-start-line="53" selection-start-column="71" selection-end-line="53" selection-end-column="71" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Dropbox/Ignytion/Code Snippets/csv.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-672" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tweets/warriors.csv">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -475,6 +477,61 @@
           <caret line="17" column="8" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/train_log_reg.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="39" lean-forward="true" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Dropbox/Ignytion/Code Snippets/csv.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="27" column="37" lean-forward="true" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tweets/processed_warriors.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sentiment_analyzer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="33" column="36" lean-forward="true" selection-start-line="33" selection-start-column="36" selection-end-line="33" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+            <marker date="1540180487442" expanded="true" signature="171:176" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tweet_preprocessing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+            <marker date="1540327201391" expanded="true" signature="240:390" ph="..." />
+            <marker date="1540327201391" expanded="true" signature="787:1011" ph="..." />
+            <marker date="1540327201391" expanded="true" signature="1067:1076" ph="..." />
+            <marker date="1540327201391" expanded="true" signature="1323:1332" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_sentiment.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="10" column="99" selection-start-line="10" selection-start-column="99" selection-end-line="10" selection-end-column="99" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
           </folding>
         </state>
       </provider>
