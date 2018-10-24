@@ -83,10 +83,10 @@ SVC_classifier = pickle.load(open_file)
 open_file.close()
 
 voted_classifier = VoteClassifier(classifier,
-                                  LinearSVC_classifier,
+                                  # LinearSVC_classifier,
                                   LogisticRegression_classifier,
                                   NuSVC_classifier,
-                                  SGDC_classifier,
+                                  # SGDC_classifier,
                                   # SVC_classifier
                                   )
 
